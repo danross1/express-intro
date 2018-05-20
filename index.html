@@ -14,17 +14,17 @@
     <section id="addEmployee">
       <h2>Add Employee</h1>
       <form>
-        <input type="text" placeholder="First Name"/>
-        <input type="text" placeholder="Last Name"/>
-        <input type="text" placeholder="ID"/>
-        <input type="text" placeholder="Title"/>
-        <input type="text" placeholder="Annual Salary"/>
+        <input type="text" placeholder="First Name"/ id="firstName">
+        <input type="text" placeholder="Last Name"/ id="lastName">
+        <input type="text" placeholder="ID"/ id="idNumber">
+        <input type="text" placeholder="Title"/ id="jobTitle">
+        <input type="text" placeholder="Annual Salary"/ id="annualSalary">
       </form>
-      <button type="submit">Submit</button>
+      <button type="submit" id="submitBtn">Submit</button>
     </section>
     <section id="employees">
       <h2>Employees</h2>
-      <table>
+      <table id="employeeTable">
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
@@ -32,17 +32,11 @@
           <th>Title</th>
           <th>Annual Salary</th>
         </tr>
-        <tr>
-          <td>Jen</td>
-          <td>Barber</td>
-          <td>4521</td>
-          <td>Team Lead</td>
-          <td>80,000</td>
-        </tr>
+        <!-- employee info displays here -->
       </table>
     </section>
     <section id="total">
-      <h2>Total Monthly: $</h2>
+      <!-- total montly salary displays here -->
     </section>
   </body>
 </html>
