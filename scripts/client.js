@@ -26,7 +26,7 @@ function addEmployee(){
        // append information to the DOM
        let outputString = `<tr><td>${firstName}</td><td>${lastName}</td>
                            <td>${idNumber}</td><td>${jobTitle}</td>
-                           <td>${annualSalary}</td></tr>`;
+                           <td>${annualSalary}</td><td><button onclick="deleteEmployee()">Delete</button></td></tr>`;
        $('#employeeTable').append(outputString);
 
        // clear the input fields
@@ -44,6 +44,10 @@ function clearInputs(){
   for(id of inputIDs){
     $('#' + id).val('');
   }
+}
+
+function deleteEmployee(){
+  
 }
 
 function displayMonthlyCosts(){
